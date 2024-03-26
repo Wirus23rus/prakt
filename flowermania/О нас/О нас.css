@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+
+.header {
+    z-index: 50;
+    position: fixed;
+    padding: 15px 20px;
+    top: 0;
+    width: 100%;
+    transition: background .2s ease;
+    background-color: rgb(255, 157, 157);
+}
+
+
+div {
+    display: block;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.menu__list {
+    list-style: none;
+    margin-right: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.div{
+    display: block;
+}
+
+a:-webkit-any-link {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+
+.menu__list a {
+    border-radius: 10px;
+    color: #40382D;
+    box-shadow: inset 0 -5px 0 #40382D;
+ }
+
+ .menu__list a:hover {
+    box-shadow: inset 0 -60px 0 #40382D, 2px 2px 3px rgba(0, 0, 0, 0.3);
+    color: #DECDA5;
+ }
+
+ .text{
+    background-color:  #DDD;
+    height: 400px;
+    padding-top: 150px;
+    color: #000;
+padding-left: 50px;
+padding-right: 50px;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+    }
+    .text2{
+        background-color:  #DDD;
+        height: 400px;
+        padding-top: 150px;
+        color: #000;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    position: relative;
+    top: 529px;
+        }
+.sale{
+    
+position: relative;
+
+}
+ .salegl {
+    width: 100%;
+    top: 0;
+    position: absolute;
+ }
+
+
+ .baner img{
+    width: 100%;
+    height:  530px;
+    position: relative;
+ }
+
+ .baner{
+    position: relative;
+ }
+
+ .promo{
+    position: absolute;
+    top: 200px;
+    left: 40%;
+   
+ }
+
+ .promo img{
+border-radius: 150px;
+ }
+
+ .promotxt{
+    position: absolute;
+    top: 120px;
+    left: 329px;
+    text-align: center;
+   
+ }
+
+
+ h4 {
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+    color: black;
+}
+
+
+
+
+.footer-bs {
+    background-color: #3c3d41;
+    padding: 60px 40px;
+    color: rgba(255,255,255,1.00);
+    margin-bottom: 20px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 6px;
+    position: relative;
+    top: 528px;
+  }
+  .footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+  .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+  .footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+  .footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+  
+  .footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+  .footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+  .footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
+  .footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+  .footer-bs .footer-nav h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom:10px;
+  }
+  
+  .footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+  .footer-bs .footer-nav ul.list li { padding:5px 0px;}
+  .footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
+  .footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+  
+  .footer-bs .footer-social ul { list-style:none; padding:0px; }
+  .footer-bs .footer-social h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  .footer-bs .footer-social li { padding:5px 4px;}
+  .footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+  .footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+  
+  .footer-bs .footer-ns h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom:10px;
+  }
+  .footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+
+
+  
+  @media (min-width: 768px) {
+    .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+  }
